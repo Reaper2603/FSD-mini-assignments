@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        h3{
+            color: red;
+        }
+        .sel1{
+            color: rgb(11, 11, 11);
+        }
+        #id2{
+            color: green;
+        }
+        .sel2{
+            color: blue;
+        }
+        h3[class="sel4"]{
+            color: rgb(255, 0, 191);
+        } 
+    </style>
+</head>
+<body>
+    <body align="center"><br>
+<fieldset style="width: 600px; margin: 0 auto;">
+<br>
+<h1>CSS Selectors</h1>
+<h2>Applying CSS to Different parts of the HTML</h2>
+<br>
+<h3>1. The element selector targets elements based on their HTML tag name.</h3>
+<h3 class="sel1">2. Class selectors target elements based on the value of the class attribute.</h3>
+<h3 class="sel1" id="id2">3. ID selectors target elements based on the value of the id attribute.</h3>
+<h3 class="sel2">4. Attribute selectors target elements based on their attributes and values.</h3>
+<h3 class="sel4">5. The universal selector targets all elements.</h3>
+</fieldset>
+</body>
+</html>
